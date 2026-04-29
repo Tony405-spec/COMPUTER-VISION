@@ -1,0 +1,63 @@
+<svg width="900" height="500" xmlns="http://www.w3.org/2000/svg" style="background-color: #0a0a0a; font-family: 'Consolas', 'Courier New', monospace;">
+  <!-- Red prompt lines -->
+  <text x="20" y="40" fill="#ff3300" font-size="15" font-weight="bold">
+    C:\COMPUTER-VISION&gt; python detect.py --image test.jpg --model yolov11
+    <animate attributeName="opacity" values="0;1" dur="0.3s" fill="freeze"/>
+  </text>
+  
+  <text x="20" y="70" fill="#00ff88" font-size="14">
+    [INFO] Loading OpenCV 4.8.0...
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.5s" fill="freeze"/>
+  </text>
+  
+  <text x="20" y="100" fill="#00ff88" font-size="14">
+    [INFO] Warming up YOLOv11 weights...
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.0s" fill="freeze"/>
+  </text>
+  
+  <!-- Progress bar -->
+  <rect x="20" y="125" width="0" height="18" fill="#ff3300" rx="3">
+    <animate attributeName="width" values="0;600" dur="1.5s" begin="1.5s" fill="freeze"/>
+  </rect>
+  <text x="640" y="140" fill="#ffffff" font-size="13" font-weight="bold">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="1.5s" fill="freeze"/>
+    PROCESSING...
+  </text>
+  
+  <!-- Detection results -->
+  <text x="20" y="175" fill="#00ff88" font-size="14">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.0s" fill="freeze"/>
+    [SUCCESS] Detection complete!
+  </text>
+  
+  <text x="20" y="205" fill="#ffffff" font-size="14">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="3.3s" fill="freeze"/>
+    📍 Found 4 objects:
+  </text>
+  
+  <text x="40" y="235" fill="#00ff88" font-size="14">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.6s" fill="freeze"/>
+    • Person (87.3%)
+  </text>
+  
+  <text x="40" y="265" fill="#00ff88" font-size="14">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="3.9s" fill="freeze"/>
+    • Car (92.1%)
+  </text>
+  
+  <text x="40" y="295" fill="#00ff88" font-size="14">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="4.2s" fill="freeze"/>
+    • Dog (78.4%)
+  </text>
+  
+  <text x="40" y="325" fill="#00ff88" font-size="14">
+    <animate attributeName="opacity" values="0;1" dur="0.2s" begin="4.5s" fill="freeze"/>
+    • Bicycle (81.2%)
+  </text>
+  
+  <!-- Final blinking cursor -->
+  <text x="20" y="370" fill="#ff3300" font-size="15" font-weight="bold">
+    C:\COMPUTER-VISION&gt;
+    <animate attributeName="opacity" values="1;0" dur="0.8s" repeatCount="indefinite"/>
+  </text>
+</svg>

@@ -15,3 +15,11 @@ Team member - Kate020-cpu
   <img src="https://img.shields.io/badge/STATUS-ONLINE-red?style=for-the-badge&logo=github&logoColor=white&labelColor=black&color=ff0000"/>
   <img src="https://img.shields.io/badge/MODE-AGGRESSIVE-red?style=for-the-badge&logo=stackblitz&logoColor=white&labelColor=black&color=ff0000"/>
 </p>
+<br>
+
+<p align="center">
+  <img src="assets/cv-demo.svg" alt="Computer Vision Demo in Action" width="90%">
+</p>
+
+<br>
+
